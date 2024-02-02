@@ -1,5 +1,5 @@
 /*
-	Przyk³adowe wypelnienie siatki:
+	Przykladowe wypelnienie siatki:
 
 	0 6 0 3 0 0 8 0 4 5 3 7 0 9 0 0 0 0 0 4 0 0 0 6 3 0 7 0 9 0 0 5 1 2 3 8 0 0 0 0 0 0 0 0 0 7 1 3 6 2 0 0 4 0 3 0 6 4 0 0 0 1 0 0 0 0 0 6 0 5 2 3 1 0 2 0 0 9 0 8 0
 
@@ -92,11 +92,11 @@ bool solve()
 
 int main()
 {
-    cout << "Witam w grze Sudoku!" << endl;
-    cout << "Instrukcja" << endl;
+    cout << "Witam w aplikacji rozwiazujacej Sudoku! \n";
     cout << "Generator sudoku - https://www.sudokuweb.org \n";
-    cout << "Wypelnij siatke 9x9 cyframi,wpisujac cyfry kolejno wiersz po wierszu. W puste pola siatki wstawiajac 0 " <<endl;
-    cout << "Przyklad:" << endl;
+    cout << "Instrukcja: \n";
+    cout << "Wypelnij siatke 9x9 cyframi,wpisujac cyfry kolejno wiersz po wierszu. W puste pola siatki wstawiajac 0 \n";
+    cout << "Przyklad: \n";
     cout << "0 6 0  3 0 0  8 0 4 <---- wiersz \n";
     cout << "5 3 7  0 9 0  0 0 0 \n";
     cout << "0 4 0  0 0 6  3 0 7 \n\n";
